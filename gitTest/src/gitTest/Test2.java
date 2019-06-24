@@ -6,7 +6,14 @@ public class Test2 {
 		// TODO Auto-generated method stub
 		System.out.println("hello world");
 		
-		//한글이 깨지네요..
+		XmlTEstVo vo = new XmlTestVo();
+List<XmlTestVo> xmlList = new ArrayList<XmlTestVo>();
+for(int i = 0; i<xmlList.size(); i++){
+XmlTestVo dataVo = new XmlTEstVo();
+dataVo = xmlList.get(i);
+//현재 단계 Level
+
+}
 	}
 
 }
